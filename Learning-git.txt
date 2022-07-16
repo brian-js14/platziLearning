@@ -1,6 +1,6 @@
 Git
 
-git init => iniciar un repositorio
+git init => iniciar un repositorio/crea un área en memoria ram
 git status => ver el estado de los archivos en el proyecto
 git add [file] => agregar el file
 git rm [file] => borra el archivo aparentemente porque está cacheado
@@ -12,3 +12,10 @@ git config --list --show-origin => ver la ubicación de la configuración
 
 git log [file] => visualizar los cambios realizados
 git show [file] => commits realizados y visualizar los cambios por consola
+--------------------------------------------------------------------------
+ver cambios entre commits
+
+git diff [id_conmmit1] [id_conmmit2]
+ej: git diff 74aef8fb5203043bb0561768b2b15799129cc572 b32c98968a25a6fb9b9343fefa6935a2f951d6e4
+
+untracked --> Archivo sin rastraer/no se le ha hecho un add - es un área temporal
