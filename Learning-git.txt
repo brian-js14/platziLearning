@@ -10,3 +10,5 @@ git commit -m "messaje" => Enviar el archivo al repositorio, el commit lo envía
 git config --list => ver la configuración de git, usuario/repos y demás
 git config --list --show-origin => ver la ubicación de la configuración
 
+git log [file] => visualizar los cambios realizados
+git show [file] => commits realizados y visualizar los cambios por consola
