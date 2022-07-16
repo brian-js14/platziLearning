@@ -1,1 +1,12 @@
-Este es un test
+Git
+
+git init => iniciar un repositorio
+git status => ver el estado de los archivos en el proyecto
+git add [file] => agregar el file
+git rm [file] => borra el archivo aparentemente porque está cacheado
+git rm --cached [file] => quita los archivos agregados con el git add
+    el cach significa que está en memoria ram
+git commit -m "messaje" => Enviar el archivo al repositorio, el commit lo envía, una buena práctica es enviar un mensaje
+git config --list => ver la configuración de git, usuario/repos y demás
+git config --list --show-origin => ver la ubicación de la configuración
+
