@@ -50,6 +50,9 @@ git log > log.txt - guardar los logs en un archivo txt
 
 -------------------------------------------------------------------------------
 git commit -am "message" => sirve para evitar el add . siempre y cuando alguna vez se le haya hecho un add al archivo
+git checkout => me muevo a mi rama
+HEAD => Versión que estoy viendo en los últimos archivos
+
 
 Ej: Aprendiendo a utilizar las ramas y el master correctamente
 
