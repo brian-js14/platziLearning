@@ -19,3 +19,10 @@ git diff [id_conmmit1] [id_conmmit2]
 ej: git diff 74aef8fb5203043bb0561768b2b15799129cc572 b32c98968a25a6fb9b9343fefa6935a2f951d6e4
 
 untracked --> Archivo sin rastraer/no se le ha hecho un add - es un área temporal
+Ramas: romper en diferentes líneas de tiempo el código y unirlas al final
+
+BugFixing => Revisión de un Bug
+hotfix => arreglo en caliente
+
+-Merge: combinar todos los cambios
+git reset [id_conmmit] --hard => Volver al pasado de una 
