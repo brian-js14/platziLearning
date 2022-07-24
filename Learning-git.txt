@@ -55,4 +55,18 @@ HEAD => Versión que estoy viendo en los últimos archivos
 
 git push origin master ó [rama] => subir cambios al repo remoto
 git pull origin [rama] traerme los cambios de ese origen --> como hacer un fecth
-feature/colletion-postman-api-producto-change-delivery-time-v32
+
+--------------------------------------------------------------------------------
+Llaves públicas y Llaves privadas:
+Se pueden crear para hacer una conexión segura
+con el siguiente comando, ejecutandolo de manera local y en el home del pc:
+    ssh-keygen -t rsa -b 4096 -C "brian0614@gmail.com"
+se define la ruta donde se desea guardar la llave
+
+visualizar que existe un proceso ssh-key gen ejecutandose
+eval $(ssh-agent -s)
+
+De esta manera se agrega la llave privada
+ssh-add ~/key
+
+
